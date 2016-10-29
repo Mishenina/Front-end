@@ -1,0 +1,676 @@
+.header {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1200px;
+  height: 3518px;
+  z-index: 79;
+}
+.minimo {
+  font-size: 30px;
+  font-family: "Inconsolata";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 0.8;
+  text-align: center;
+  position: absolute;
+  left: 57px;
+  top: 88.828px;
+  width: 119px;
+  height: 23px;
+  z-index: 78;
+}
+.lifestyle {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  text-transform: uppercase;
+  line-height: 1.714;
+  text-align: center;
+  position: absolute;
+  left: 530.732px;
+  top: 97.25px;
+  width: 71px;
+  height: 11px;
+  z-index: 77;
+}
+.photodiary {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  text-transform: uppercase;
+  line-height: 1.714;
+  text-align: center;
+  position: absolute;
+  left: 752.435px;
+  top: 97.25px;
+  width: 88px;
+  height: 11px;
+  z-index: 76;
+}
+.travel {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  text-transform: uppercase;
+  line-height: 1.714;
+  text-align: center;
+  position: absolute;
+  left: 1082.009px;
+  top: 97.25px;
+  width: 52px;
+  height: 11px;
+  z-index: 75;
+}
+.music {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  text-transform: uppercase;
+  line-height: 1.714;
+  text-align: center;
+  position: absolute;
+  left: 944.538px;
+  top: 97.25px;
+  width: 43px;
+  height: 11px;
+  z-index: 74;
+}
+
+
+.single_post_SIDEBAR {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1200px;
+  height: 3518px;
+  z-index: 72;
+}
+.sidebar {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1200px;
+  height: 3518px;
+  z-index: 71;
+}
+
+.Livello_5 {
+  background-image: url("../images/Livello5.png");
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1200px;
+  height: 3518px;
+  z-index: 2;
+}
+
+
+.cover_image {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1200px;
+  height: 3518px;
+  z-index: 22;
+}
+
+.image {
+  background-image: url("../images/image.png");
+  position: absolute;
+  left: 70px;
+  top: 0px;
+  width: 1062px;
+  height: 674px;
+  z-index: 21;
+}
+
+.Rettangolo_0 {
+  background-color: rgb(242, 242, 242);
+  position: absolute;
+  left: 69px;
+  top: 163px;
+  width: 1062px;
+  height: 509px;
+  z-index: 20;
+}
+
+
+.photodiary_1 {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  position: absolute;
+  left: 69.937px;
+  top: 769.25px;
+  width: 85px;
+  height: 11px;
+  z-index: 18;
+}
+
+.The_perfect_weekend_getaway {
+  font-size: 30px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  position: absolute;
+  left: 69.964px;
+  top: 806.828px;
+  width: 500px;
+  height: 30px;
+  z-index: 17;
+}
+.Lorem_ipsum_dolor_sit_amet_consectetur_adipisi {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+  position: absolute;
+  left: 67.994px;
+  top: 896.25px;
+  width: 659px;
+  height: 255px;
+  z-index: 16;
+}
+
+
+.photo_1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1200px;
+  height: 3518px;
+  z-index: 6;
+}
+.image_1 {
+  background-image: url("../images/image_1.png");
+  position: absolute;
+  left: -80px;
+  top: 1074px;
+  width: 928px;
+  height: 620px;
+  z-index: 5;
+}
+.Rettangolo_1 {
+  background-color: rgb(180, 173, 158);
+  position: absolute;
+  left: 70px;
+  top: 1193px;
+  width: 661px;
+  height: 496px;
+  z-index: 4;
+}
+
+
+
+.photo_2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1200px;
+  height: 3518px;
+  z-index: 10;
+}
+.image_2 {
+  background-image: url("../images/image_2.png");
+  position: absolute;
+  left: -52px;
+  top: 1654px;
+  width: 923px;
+  height: 615px;
+  z-index: 9;
+}
+.Rettangolo_2 {
+  background-color: rgb(180, 173, 158);
+  position: absolute;
+  left: 70px;
+  top: 1739px;
+  width: 660px;
+  height: 495px;
+  z-index: 8;
+}
+
+
+.photo_3 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1200px;
+  height: 3518px;
+  z-index: 14;
+}
+.image_3 {
+  background-image: url("../images/image_3.png");
+  position: absolute;
+  left: -39px;
+  top: 2283px;
+  width: 880px;
+  height: 587px;
+  z-index: 13;
+}
+.Rettangolo_3 {
+  background-color: rgb(180, 173, 158);
+  position: absolute;
+  left: 70px;
+  top: 2291px;
+  width: 660px;
+  height: 496px;
+  z-index: 12;
+}
+
+
+
+._Duis_aute_irure_dolor_in_reprehenderit_in_volu {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+  padding-left:20px;
+  padding-right:20px;
+  position: absolute;
+  left: 69.994px;
+  top: 2841.25px;
+  width: 606px;
+  height: 400px;
+  z-index: 15;
+}
+.Lorem{
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+  position: absolute;
+  left: 69.994px;
+  top: 2987.25px;
+  width: 652px;
+  height: 400px;
+  z-index: 15;
+}
+
+
+
+
+
+
+.background {
+  background-color: rgb(217, 217, 217);
+  position: absolute;
+  left: 1px;
+  top: 3421px;
+  width: 1200px;
+  height: 97px;
+  z-index: 81;
+}
+
+.Terms_and_conditions {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(0, 0, 0);
+  line-height: 1.714;
+  position: absolute;
+  left: 70.795px;
+  top: 3455.002px;
+  z-index: 82;
+}
+
+.Privacy {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(0, 0, 0);
+  line-height: 1.714;
+  position: absolute;
+  left: 222.937px;
+  top: 3455.002px;
+  z-index: 83;
+}
+
+.Follow {
+  font-size: 14px;
+  font-family: "Playfair Display";
+  color: rgb(0, 0, 0);
+  line-height: 1.714;
+  position: absolute;
+  left: 989.937px;
+  top: 3455.002px;
+  z-index: 84;
+}
+
+.footer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1200px;
+  height: 3518px;
+  z-index: 90;
+}
+.social {
+  position: absolute;
+  left: 1054px;
+  top: 3460.002px;
+  width: 1200px;
+  height: 3518px;
+  z-index: 89;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image_5 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1200px;
+  height: 3518px;
+  z-index: 64;
+}
+.image_4 {
+  background-image: url("../images/image_4.png");
+  position: absolute;
+  left: 853px;
+  top: 768px;
+  width: 284px;
+  height: 189px;
+  z-index: 63;
+}
+.Rettangolo_5 {
+  background-color: rgb(180, 173, 158);
+  position: absolute;
+  left: 858px;
+  top: 770px;
+  width: 272px;
+  height: 177px;
+  z-index: 62;
+}
+.About_me {
+  font-size: 24px;
+  font-family: 'Playfair Display';
+  color: rgb(98, 98, 98);
+  line-height: 0.833;
+  position: absolute;
+  left: 852.844px;
+  top: 991.85px;
+  width: 104px;
+  height: 20px;
+  z-index: 60;
+}
+.Lorem_ipsum_dolor_sit_amet_consectetur_adipisi_1 {
+  font-size: 12px;
+  font-family: 'Playfair Display';
+  color: rgb(98, 98, 98);
+  line-height: 1.667;
+  position: absolute;
+  left: 853.937px;
+  top: 1033.992px;
+  width: 276px;
+  height: 73px;
+  z-index: 59;
+}
+.about_the_author {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1200px;
+  height: 3518px;
+  z-index: 71;
+}
+.icons {
+  position: absolute;
+ margin: 24px 14px 24px 0px;
+  left: 850px;
+  top: 1111px;
+  width: 1200px;
+  height: 3518px;
+  z-index: 70;
+}
+.bio {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1200px;
+  height: 1130px;
+  z-index: 65;
+ overflow: hidden;
+text-overflow: clip;
+}
+
+
+
+
+
+.top_populat_posts {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1200px;
+  height: 3518px;
+  z-index: 56;
+}
+.Top_posts {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  position: absolute;
+  left: 856.795px;
+  top: 1200.1px;
+  z-index: 55;
+}
+.A_day_exploring_the_Alps {
+  font-size: 16px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  position: absolute;
+  left: 884.937px;
+  top: 1247.546px;
+  width: 180px;
+  height: 17px;
+  z-index: 42;
+}
+._24_comments {
+  font-size: 12px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  position: absolute;
+  left: 885.667px;
+  top: 1278.992px;
+  width: 90 px;
+  height: 10px;
+  z-index: 43;
+}
+._19_comments {
+  font-size: 12px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  position: absolute;
+  left: 885.521px;
+  top: 1348.992px;
+  width: 90px;
+  height: 10px;
+  z-index: 48;
+}
+.American_dream {
+  font-size: 16px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  position: absolute;
+  left: 884.937px;
+  top: 1317.546px;
+  width: 121px;
+  height: 14px;
+  z-index: 47;
+}
+._15_comments {
+  font-size: 12px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.2;
+  position: absolute;
+  left: 885.521px;
+  top: 1418.992px;
+  width: 90px;
+  height: 10px;
+  z-index: 53;
+}
+.Cold_winter_days {
+  font-size: 16px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+  position: absolute;
+  left: 884.937px;
+  top: 1387.546px;
+  width: 126px;
+  height: 17px;
+  z-index: 52;
+}
+
+._3 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1200px;
+  height: 3518px;
+  z-index: 54;
+}
+
+.Ellisse_3_3 {
+  border-radius: 50%;
+  background-color: rgb(180, 173, 158);
+  position: absolute;
+  left: 859px;
+  top: 1394px;
+  width: 5px;
+  height: 5px;
+  z-index: 51;
+}
+._2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1200px;
+  height: 3518px;
+  z-index: 49;
+}
+
+.Ellisse_3_2 {
+  border-radius: 50%;
+  background-color: rgb(180, 173, 158);
+  position: absolute;
+  left: 859px;
+  top: 1324px;
+  width: 5px;
+  height: 5px;
+  z-index: 46;
+}
+._1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1200px;
+  height: 3518px;
+  z-index: 44;
+}
+
+.Ellisse_3_1 {
+  border-radius: 50%;
+  background-color: rgb(180, 173, 158);
+  position: absolute;
+  left: 859px;
+  top: 1254px;
+  width: 5px;
+  height: 5px;
+  z-index: 41;
+}
+
+.banner {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1200px;
+  height: 3518px;
+  z-index: 38;
+}
+.banner_spot {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  position: absolute;
+  left: 938.937px;
+  top: 1643.1px;
+  z-index: 37;
+}
+._250x250 {
+  font-size: 48px;
+  font-family: "Ubuntu";
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 891.833px;
+  top: 1583.761px;
+  width: 186px;
+  height: 36px;
+  z-index: 36;
+}
+.Rettangolo_13 {
+  background-color: rgb(180, 173, 158);
+  position: absolute;
+  left: 859px;
+  top: 1485px;
+  width: 250px;
+  height: 250px;
+  z-index: 34;
+}
+
+
+.share {
+  position: absolute;
+  left: 670px;
+  top: 3314px;
+  width: 1200px;
+  height: 3518px;
+  z-index: 30;
+ 
+}
+.Share {
+  font-size: 13px;
+  font-family: "Ubuntu";
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+  line-height: 1.846;
+  position: absolute;
+  left: 609.12px;
+  top: 3311.501px;
+  z-index: 29;
+}
