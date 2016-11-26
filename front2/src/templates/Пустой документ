@@ -2,20 +2,17 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <meta name="keywords" content="Palo Alto, Explorer, Peak, Yosemite, Introspection, Democracy, Travel">
-        <meta name="description" content="blog about travel, observation, reflection">
-        <title>Palo Alto
+        <title>7bits-frontend-2016
     </title>
-        <link rel="shortcut icon" type="image/png" href="../images/favicon32.png" sizes="32x32"/>
         <link href=../styles/style.css rel=stylesheet>
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     </head>
     <body class="layout">
         <header class="header">
             <a href="index.html" class="logo">
-                <img srcset="../images/logo.png 1x, ../images/logo@2x.png 2x" wigth=157px height=33px alt="logo">
+                <img src="../images/logo.png" alt="logo">
             </a>
-            <nav class="float-right">
+            <nav class="right">
                 <ul class="menu">
                     <li class="menu__element">
                         <a href="index.html" class="menu__element-link  menu__element-link__gray menu__element__active">home</a>
@@ -30,21 +27,20 @@
                         <a href="contacts.html" class="menu__element-link menu__element-link__gray">contact</a>
                     </li>
                     <li class="menu__element">
-                        <a href="#" class=menu__icon-search></a>
+                        <a href="#" class=icon-search></a>
                     </li>
                 </ul>
             </nav>
         </header>
-        {% block main %}
+
+ {% block main %}
 {% endblock %}
 
 
-        
-        
         <footer class="footer">
             <div class="footer-content">
                 <a href="index.html" class="footer__logo">
-                    <img src="../images/logo-footer.png" wigth=157px height=33px alt="logo">
+                    <img src="../images/logo-footer.png" alt="logo">
                 </a>
                 <nav class="">
                     <ul class="menu">
@@ -62,7 +58,7 @@
                         </li>
                         <li class="menu__element">
                             <a href="#" class="menu-element__link menu__element-link__white">
-                                <img src="../images/search-footer.png" wigth=16px height=16px alt="icon-search">
+                                <img src="../images/search-footer.png" alt="icon-search">
                             </a>
                         </li>
                     </ul>
@@ -74,22 +70,22 @@
                 <ul>
                     <li class="icon">
                         <a href="#facebook">
-                            <img src="../images/facebook.png"  wigth=22px height=22px alt="facebook-icon">
+                            <img src="../images/facebook.png" alt="facebook-icon">
                         </a>
                     </li>
                     <li class="icon">
                         <a href="#twitter">
-                            <img src="../images/twitter.png" wigth=24px height=20px alt="twitter-icon">
+                            <img src="../images/twitter.png" alt="twitter-icon">
                         </a>
                     </li>
                     <li class="icon">
                         <a href="#instagram">
-                            <img src="../images/instagram.png" wigth=22px height=22px alt="instagram-icon">
+                            <img src="../images/instagram.png" alt="instagram-icon">
                         </a>
                     </li>
                     <li class="icon">
                         <a href="#pinterest">
-                            <img src="../images/pinterest.png" wigth=22px height=22px alt="instagram-icon">
+                            <img src="../images/pinterest.png" alt="instagram-icon">
                         </a>
                     </li>
                 </ul>

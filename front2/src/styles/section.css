@@ -1,0 +1,14 @@
+.section {
+    box-shadow: 0 0 25px rgba(0,0,0,0.1);
+    padding: 53px 98px 55px 94px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+    box-sizing: border-box;
+}
+
+.image {
+    margin-left: -95px;
+    margin-top: -53px;
+    display: inline-block;
+    margin-bottom: 50px;
+}

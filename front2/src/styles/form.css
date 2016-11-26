@@ -1,0 +1,37 @@
+.form {
+    margin-top: 0px;
+}
+
+.form__input-field {
+    background-color: #f7f9fc;
+    border: none;
+    height: 55px;
+    width: 310px;
+    font-size: 20px;
+    font-family: "Lato", serif;
+    color: rgb(0, 0, 0);
+    line-height: 1.5;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+
+.form__input-field__right {
+    float: right;
+}
+
+.form__input-field__full-width {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form__input-field__multiline {
+    height: 145px;
+    resize: vertical;
+    padding-top: 25px;
+}
+
+.form__send {
+    /*border: none;*/
+    background-color: white
+}
