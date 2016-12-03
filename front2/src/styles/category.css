@@ -26,22 +26,23 @@
 .category:active {
     background-color: #5360ac;
 }
+
 @media screen and (max-width: 1024px) {
-
 }
+
 @media screen and (max-width: 768px) {
-.category {
-    font-size: 18px;
-      top: -50px;
-    right: -50px;
+    .category {
+        font-size: 18px;
+        top: -50px;
+        right: -50px;
+    }
 }
-}
+
 @media screen and (max-width: 480px) {
-
 }
+
 @media screen and (max-width: 320px) {
-
-.category {
-    right: -25px;
-}
+    .category {
+        right: -25px;
+    }
 }

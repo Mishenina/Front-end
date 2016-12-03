@@ -43,30 +43,35 @@
     display: inline-block;
     margin: 10px;
 }
-.footer__icon-search{
-}
-@media screen and (max-width: 1024px) {
 
+.footer__icon-search {
 }
+
+@media screen and (max-width: 1024px) {
+}
+
 @media screen and (max-width: 768px) {
-.footer {
-    width: 100%;
-}
-.footer-content {
-    width: 100%;
-    padding: 50px 0;
-    margin: auto;
-}
-.footer__text {
-    padding-left: 10px;
-padding-right: 10px;
+    .footer {
+        width: 100%;
+    }
+
+    .footer-content {
+        width: 100%;
+        padding: 50px 0;
+        margin: auto;
+    }
+
+    .footer__text {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
-@media screen and (max-width: 480px) {
-.footer__icon-search{
-display:none;
-}
-}
-@media screen and (max-width: 320px) {
 
+@media screen and (max-width: 480px) {
+    .footer__icon-search {
+        display:none;
+    }
+}
+
+@media screen and (max-width: 320px) {
 }

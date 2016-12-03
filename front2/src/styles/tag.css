@@ -4,7 +4,7 @@
     text-decoration: none;
     margin-right: 10px;
     margin-top: 32px;
-display:inline;
+    display: inline;
 }
 
 .tag:hover {
@@ -16,7 +16,8 @@ display:inline;
     color: #5c6bc0;
     text-decoration: none;
 }
+
 @media screen and (max-width: 480px) {
-.tag {
-}
+    .tag {
+    }
 }

@@ -22,7 +22,6 @@
 
 .form__input-field__full-width {
     width: 100%;
-
 }
 
 .form__input-field__multiline {
@@ -34,14 +33,15 @@
 .form__send {
     background-color: white;
 }
-@media screen and (max-width: 768px) {
-.form__input-field {
-display:block;
-float:none;
- width: 100%;
-}
-.form__input-field__full-width {
-    width: 100%;
-}
-}
 
+@media screen and (max-width: 768px) {
+    .form__input-field {
+        display:block;
+        float: none;
+        width: 100%;
+    }
+
+    .form__input-field__full-width {
+        width: 100%;
+    }
+}
