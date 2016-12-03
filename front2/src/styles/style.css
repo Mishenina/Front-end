@@ -1,6 +1,7 @@
 .layout {
-    background-image: url("../images/background.jpg");
+    background-image: url("./images/background.jpg");
     margin: 0;
+    font-family: "Lato", serif;
 }
 
 .header, .main {
@@ -9,7 +10,6 @@
     margin-top: 75px;
     box-sizing: border-box;
 }
-
 .logo {
     display: inline;
 }
@@ -18,6 +18,26 @@
     float: right;
 }
 
-.float-left {
-    float: left;
+@media screen and (max-width: 768px) {
+
+    .header, .main {
+    width: 728px;
+margin-top: 50px;
+    }
+}
+@media screen and (max-width: 480px) {
+
+    .header, .main {
+    width: 430px;
+    }
+ .header{
+margin-bottom:30px;
+}
+}
+@media screen and (max-width: 320px) {
+
+    .header, .main{
+    width: 280px;
+    }
+
 }
