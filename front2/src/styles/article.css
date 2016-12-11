@@ -1,11 +1,11 @@
 .article {
     padding: 0;
+    width: 100%;
 }
 
 .article__text {
     font-size: 17px;
     color: rgba(0, 0, 0, 0.8);
-    /* line-height: 1.765; */
     margin-top: 0;
     margin-bottom: 20px;
     line-height: 1.8;
@@ -113,4 +113,8 @@
 }
 
 @media screen and (max-width: 320px) {
+    .article__buttom {
+        margin-left: -20px;
+        padding: 17px 20px 19px 20px;
+    }
 }

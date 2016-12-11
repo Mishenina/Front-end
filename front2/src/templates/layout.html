@@ -8,6 +8,7 @@
         <title>Palo Alto
     </title>
         <link rel="shortcut icon" type="image/png" href="./images/favicon32.png" sizes="32x32"/>
+        <link href="./vendor/vendor.css" rel=stylesheet>
         <link href=./styles/style.css rel=stylesheet>
         <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     </head>
@@ -16,7 +17,8 @@
             <a href="index.html" class="logo">
                 <img srcset="./images/logo.png 1x, ./images/logo@2x.png 2x" wigth=157px height=33px alt="logo">
             </a>
-            <nav class="float-right">
+            <nav class="floatright">
+                <!-- <div  class=menu__burger></div> -->
                 <ul class="menu">
                     <li class="menu__element">
                         <a href="index.html" class="menu__element-link  menu__element-link__gray menu__element__active">home</a>
@@ -35,11 +37,33 @@
                     </li>
                 </ul>
             </nav>
+            <div class="sidebar js-sidebar floatright">
+                <form id="form-search" class="form-search" action="<anything-action>">
+                    <input name="search" placeholder="search" class="form-search__search-line">
+                    <input type="submit" value="" form="form-search" class="form-search__send">
+                </form>
+                <ul class="sidebar__menu menu">
+                    <li class="sidebar__element menu__element block">
+                        <a href="index.html" class="sidebar__element menu__element-link menu__element-link__white menu__element__active">home</a>
+                    </li>
+                    <li class="menu__element block">
+                        <a href="#" class="sidebar__element menu__element-link menu__element-link__white">about</a>
+                    </li>
+                    <li class="menu__element block">
+                        <a href="#" class="sidebar__element menu__element-link menu__element-link__white">archive</a>
+                    </li>
+                    <li class="menu__element block">
+                        <a href="contacts.html" class="sidebar__element menu__element-link menu__element-link__white">contact</a>
+                    </li>
+                </ul>
+            </div>
+            <img src="./images/burger.png" wigth=36px height=26px alt="menu" class="js-burger menu__burger">
         </header>
         {% block main %}
-{% endblock %}
+		{% endblock %}
 
 
+        
         
         
         
@@ -51,7 +75,7 @@
                 <nav class="">
                     <ul class="menu">
                         <li class="menu__element">
-                            <a href="#" class="menu__element-link menu__element-link__white menu__element__active">home</a>
+                            <a href="index.html" class="menu__element-link menu__element-link__white menu__element__active">home</a>
                         </li>
                         <li class="menu__element">
                             <a href="#" class="menu__element-link menu__element-link__white">about</a>
@@ -60,7 +84,7 @@
                             <a href="#" class="menu__element-link menu__element-link__white">archive</a>
                         </li>
                         <li class="menu__element">
-                            <a href="#contacts.html" class="menu__element-link menu__element-link__white">contact</a>
+                            <a href="contacts.html" class="menu__element-link menu__element-link__white">contact</a>
                         </li>
                         <li class="menu__element">
                             <a href="#" class="menu-element__link menu__element-link__white">
@@ -97,5 +121,8 @@
                 </ul>
             </div>
         </footer>
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+        <script src="http://mozilla.github.io/nunjucks/files/nunjucks.min.js"></script>
+        <script src="./scripts/scripts.js"></script>
     </body>
 </html>
