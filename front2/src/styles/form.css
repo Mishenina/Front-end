@@ -34,6 +34,36 @@
     background-color: white;
 }
 
+.about{
+
+width: 48%;
+margin:auto;
+
+}
+.about__label{
+ font-size: 20px;
+ display:block;
+margin-bottom:20px;
+}
+
+.about__button {
+    background-color:#5c6bc0;
+	font-size: 21px;
+    width: 160px;
+    height: 60px;
+    color: #ffffff;
+    text-transform: uppercase;
+    outline: none;
+	border: none;
+    box-sizing: border-box;
+	text-decoration: none;
+    display: inline-block;
+}
+
+.about__radio{
+ color: #f7f9fc;
+}
+
 @media screen and (max-width: 768px) {
     .form__input-field {
         display:block;

@@ -6,16 +6,21 @@ $(document).ready(function() {
         }
     });
     $.ajax({
-        url: "./mockapi/getAllArticles.json",
-        success: function(data, status) {
-            for (item in data.articles) {
-                nunjucks.render('./partials/article.html', data.articles[item], function(err, res) {
-                    $('.js-articles').append(res);
-                });
-            }
-        }
-    });
+    url: "./mockapi/getAllArticles.json",
+    success: function(data, status) {
+        nunjucks.render('./partials/article.html', data, function (err, res) {
+            $('.js-articles').append(res);      
+        });        
+    }
+  });
     $(".js-burger").click(function() {
         $(".js-sidebar").slideToggle(300);
     });
+
+ $( function() {
+        $(".datepicker").datepicker();
+    });
+
+  //$(".test").inputmask("99-9999999");  //static mask
 });
+

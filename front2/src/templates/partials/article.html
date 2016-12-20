@@ -1,18 +1,22 @@
+{% for item in articles %}
 <section class="section">
     <article class="article ">
-        <a href="#" class="category">{{category}}</a>
-        <p class="article__text  article__text__date">{{date}}</p>
-        <h2 class="article__text  article__text__h">{{title}}</h2>
-        <p class="article__text article__text__quote">{{italicText}}</p>
-        <p class="article__text">{{text[0]}}</p>
-        <p class="article__text">{{text[1]}}</p>
-        <p class="article__text article__text__insert">{{quote}}</p>
-        <p class="article__text ">{{text[2]}}</p>
+        <a href="#" class="category">{{item.category}}</a>
+        <p class="article__text  article__text__date">{{item.date}}</p>
+        <h2 class="article__text  article__text__h">{{item.title}}</h2>
+		{% for text in item.text %}
+
+			<p class="{{text.style}}">{{text.text}}</p>
+
+
+		{% endfor %}
+   
         <a href="#read" class="article__buttom">read more</a>
         <div class="article__tag">
-            <a href="#" class="tag">{{tags[0]}}</a>
-            <a href="#" class="tag">{{tags[1]}}</a>
-            <a href="#" class="tag">{{tags[2]}}</a>
+		{% for tag in item.tags %}
+            <a href="#" class="tag">{{tag}}</a>
+		{% endfor %}
         </div>
     </article>
 </section>
+{% endfor %}
