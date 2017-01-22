@@ -13,8 +13,8 @@ var path = {
     partials: 'src/templates/partials/*.html',
     mock: 'src/mockapi/*.json',
     vendor: {
-      css: 'src/vendor/*.css',
-	  js: 'src/vendor/*.js'
+      css: 'src/vendor/css/*.css',
+	  js: 'src/vendor/scripts/*.js'
     },
     img: 'src/images/*',
     dist: {

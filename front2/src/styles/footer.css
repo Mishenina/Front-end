@@ -28,12 +28,12 @@
     margin-bottom: 0;
 }
 
-.footer__text__larger {
+.footer__text_larger {
     margin-top: 20px;
     font-size: 14px;
 }
 
-.footer__text__select {
+.footer__text_select {
     color: rgb(255, 255, 255);
 }
 

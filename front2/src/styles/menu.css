@@ -2,47 +2,59 @@
     list-style: none;
     margin-right: -17px;
     margin-top: 6px;
-    padding-left: 0;
+
 }
 
 .menu__element {
     text-transform: uppercase;
-    margin: 15px;
-    display: inline;
+    margin-left: 15px;
+	margin-right: 15px;
+    display: inline-block;
     font-size: 16px;
     font-weight: bold;
 }
 
 .menu__element-link {
     text-decoration: none;
-    padding-bottom: 7px;
     width: 100px;
-    transition-property: border-bottom;
-    transition-duration: 0.3s;
-    transition-timing-function: linear;
+
+    
+}
+
+.menu__element-link:after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+	background-color: #5c6bc0;
+	margin-top:5px;
+    transition: width 0.3s linear;
+}
+.menu__element-link:hover:after{
+    width: 100%;
 }
 
 .menu__element-link:hover {
-    border-bottom: 3px solid #5c6bc0;
+   width:0;
 }
 
 .menu__element-link:active {
     color: #5c6bc0;
 }
 
-.menu__element-link__gray {
+.menu__element-link_gray {
     color: #333333;
 }
 
-.menu__element-link__white {
+.menu__element-link_white {
     color: #ffffff;
 }
 
-.menu__element-link__white:hover {
+.menu__element-link_white:hover {
     border-bottom: 3px solid #ffffff;
 }
 
-.menu__element-link__white:active {
+.menu__element-link_white:active {
     color: #ffffff;
     border-bottom: none;
 }
@@ -59,7 +71,7 @@
     background-image: url("../images/icon-search-hover.png");
 }
 
-.menu__element__active {
+.menu__element_active {
     opacity: 0.4;
 }
 
@@ -109,7 +121,7 @@
 }
 
 @media screen and (max-width: 480px) {
-    .menu__element-link__gray {
+    .menu__element-link_gray {
         display:none;
     }
 

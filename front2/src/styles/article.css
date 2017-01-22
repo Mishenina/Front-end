@@ -1,31 +1,30 @@
-.article {
+.block {
     padding: 0;
     width: 100%;
 }
-
+.article {
+ padding-bottom: 30px;
+}
 .article__text {
     font-size: 17px;
     color: rgba(0, 0, 0, 0.8);
     margin-top: 0;
     margin-bottom: 20px;
     line-height: 1.8;
-    letter-spacing: 0.4px;
 }
 
-.article__text__h {
+.article__text_h {
     font-size: 40px;
     color: rgb(0, 0, 0);
-    font-weight: bold;
     margin-bottom: 35px;
     line-height: 1.25;
     padding-bottom: 35px;
     border-bottom: #eeeeee solid 2px;
 }
 
-.article__text__date {
+.article__text_date {
     font-size: 14px;
     color: rgb(189, 189, 189);
-    font-weight: bold;
     margin-bottom: 10px;
 }
 
@@ -54,7 +53,7 @@
     box-sizing: border-box;
 }
 
-.article__text__quote {
+.article__text_quote {
     font-size: 25px;
     color: rgba(0, 0, 0, 0.502);
     font-style: italic;
@@ -62,7 +61,7 @@
     margin-bottom: 25px;
 }
 
-.article__text__insert {
+.article__text_insert {
     font-size: 20px;
     color: rgba(0, 0, 0, 0.4);
     line-height: 1.5;
@@ -90,7 +89,7 @@
         letter-spacing: normal;
     }
 
-    .article__text__h {
+    .article__text_h {
         font-size: 32px;
     }
 }

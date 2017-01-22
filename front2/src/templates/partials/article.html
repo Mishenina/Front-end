@@ -1,22 +1,23 @@
 {% for item in articles %}
 <section class="section">
+<div class="block">
     <article class="article ">
         <a href="#" class="category">{{item.category}}</a>
-        <p class="article__text  article__text__date">{{item.date}}</p>
-        <h2 class="article__text  article__text__h">{{item.title}}</h2>
+        <p class="article__text  article__text_date">{{item.date}}</p>
+        <h2 class="article__text  article__text_h">{{item.title}}</h2>
 		{% for text in item.text %}
 
 			<p class="{{text.style}}">{{text.text}}</p>
 
 
 		{% endfor %}
-   
+   </article>
         <a href="#read" class="article__buttom">read more</a>
         <div class="article__tag">
 		{% for tag in item.tags %}
             <a href="#" class="tag">{{tag}}</a>
 		{% endfor %}
         </div>
-    </article>
+    </block>
 </section>
 {% endfor %}

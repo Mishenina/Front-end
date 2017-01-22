@@ -8,19 +8,24 @@
 <main class="main">
     <section class=section>
         <div class="test">
-            <h1 class="article__text  article__text__h">About</h1>
+            <h1 class="article__text  article__text_h">About</h1>
  				<form id="about" class="about" action="<anything-action>">
-				<label class="about__label" for="firstname" >First Name</label>
-                <input name="firstname" placeholder="First Name" tabindex="1" class="form__input-field form__input-field__full-width">
+				<label class="about__label js-inputmask-name" for="firstname" >First Name</label>
+                <input name="firstname" placeholder="First Name" tabindex="1" class="form__input-field form__input-field__full-width js-inputmask">
+ <div id="error"></div>
 				<label class="about__label" for="lastname" >Last Name</label>
-				<input name="lastname" placeholder="Last Name" tabindex="2" class="form__input-field form__input-field__full-width">
+				<input name="lastname" placeholder="Last Name" tabindex="2" class="form__input-field form__input-field__full-width js-inputmask">
+
 				<label class="about__label" for="email" >E-mail</label>
-                <input name="email" placeholder="Email" tabindex="3" class="form__input-field form__input-field__full-width">
-				<label class="about__label" for="phone" >Phone</label>
-				<input name="phone" placeholder="Phone" tabindex="4" class="form__input-field form__input-field__full-width">
+                <input name="email" placeholder="Email" tabindex="3" class="form__input-field form__input-field__full-width email js-inputmask">
+
+				<label class="about__label " for="phone" >Phone</label>
+				<input name="phone" placeholder="+7(___)___-__-__" tabindex="4" class="form__input-field form__input-field__full-width js-inputmask">
+
 				<label class="about__label" for="dateofbirth" >Date of Birth</label>
-                <input name="dateofbirth" placeholder="DD/MM/YYYY" tabindex="5" class="form__input-field form__input-field__full-width datepicker">
+                <input name="dateofbirth" placeholder="DD/MM/YYYY" tabindex="5" class="form__input-field form__input-field__full-width datepicker js-inputmask">
                 <label class="about__label" for="sex" >Sex</label>
+
 				<input class="about__radio" type="radio" name="sex" value="male"  checked>Male</p>
                 <input class="about__radio" type="radio" name="sex" value="female">Female</p>
 
